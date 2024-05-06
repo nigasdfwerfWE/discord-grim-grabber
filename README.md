@@ -2,6 +2,9 @@ Disclaimer: This program is provided for educational and research purposes only.
 
 Note: If the grabber fails to function, attempt rebuilding it without enabling the "Anti VM" option.
 
+Note 2: To decrease the chances of detections, you can download MingGW-w64 (with GCC) and include the "bin" folder in the PATH variable.
+
+Features
 • GUI Builder.
 • UAC Bypass.
 • Custom Icon.
@@ -36,3 +39,23 @@ Note: If the grabber fails to function, attempt rebuilding it without enabling t
 • Captures Webcam Image.
 • Sends All Data Through Discord Webhooks/Telegram Bot.
 (...more)
+Stub Settings
+Option	Description
+Ping Me	Pings @everyone when someone runs the stub.
+Anti VM	Tries its best to prevent the stub from running on Virtual Machine.
+Put On Startup	Runs the stub on Windows starup.
+Melt Stub	Deletes the stub after use.
+Pump Stub	Pumps the stub upto the provided size.
+Fake Error	Create custom (fake) error.
+Block AV Sites	Blocks AV related sites (Unblock).
+Discord Injection	Puts backdoor on the Discord client for persistence.
+UAC Bypass	Tries to get administrator permissions without showing any prompt.
+Supports: Windows 8+ (Tested on Windows 10).
+
+Requirements
+To build the stub, you need:
+
+Windows 10.
+Python 3.10+.
+An active internet connection.
+and thats it 
